@@ -20,8 +20,6 @@ Route::get('/', function () {
 });
 
 
-Auth::routes();
-
 Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'as' => 'admin::'], function () {
 
   Route::get('/login', 'Auth\LoginController@showLoginForm')->name('login.form');
