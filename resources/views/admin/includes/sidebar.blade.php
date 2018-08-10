@@ -21,9 +21,15 @@
                 </li>
                 <li>
                     <a>
-                        <i class="fa fa-sliders"></i> Configuración
+                        <i class="fa fa-sliders"></i> Modulos
                         <span class="fa fa-chevron-down"></span>
                     </a>
+                    <ul class="nav child_menu">
+                        <!-- INIT CONTROL DE  ACCESOS -->
+                        <li><a href="{{ route('admin::files.index') }}">Archivos</a></li>
+                        <!-- END CONTROL DE ACCESOS -->
+
+                    </ul>
                 </li>
                 @can('ver-modulos-plataforma')
 

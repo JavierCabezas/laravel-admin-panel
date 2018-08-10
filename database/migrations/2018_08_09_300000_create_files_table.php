@@ -22,7 +22,6 @@ class CreateFilesTable extends Migration {
 			$table->string('extension');
 			$table->integer('size')->unsigned();
 			$table->string('motive')->nullable()->default('información');
-			$table->integer('answer_id')->nullable();
 			$table->timestamps();
 			$table->softDeletes();
 		});

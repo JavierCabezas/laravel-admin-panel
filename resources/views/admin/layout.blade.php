@@ -18,6 +18,7 @@
     @yield('css-scripts')
 
     <link href="{{ mix('/css/admin.css') }}" rel="stylesheet">
+    <link href="{{ mix('/css/resources.css') }}" rel="stylesheet">
 
 </head>
 
@@ -65,6 +66,7 @@
     </div>
 
     <script src="{{ mix('/js/admin.js') }}"></script>
+    <script src="{{ mix('/js/resources.js') }}"></script>
 
     @include('admin.includes.toast')
 

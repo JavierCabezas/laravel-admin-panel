@@ -7,6 +7,7 @@
 /public/fonts
 /public/img
 /public/js
+/public/mix-manifest.json
 Homestead.json
 Homestead.yaml
 npm-debug.log
@@ -14,3 +15,5 @@ yarn-error.log
 .vscode
 /vendor
 /.env
+/composer.lock
+/package-lock.json

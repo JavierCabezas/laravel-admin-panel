@@ -30,6 +30,13 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'as' => 'admin::'], f
 
     Route::get('/', 'HomeController@index')->name('admin.home');
 
+
+    Route::resource('/files', 'FileController', ['except' => ['show']]);
+    Route::get('/files/pdf_save_file', 'FileController@pdf_save_file')->name('files.pdf_save_file');
+    Route::get('/files/pdf_response', 'FileController@pdf_response')->name('files.pdf_response');
+    Route::get('/files/download/{file}', 'FileController@download')->name('files.download');
+
+
     Route::resource('/users', 'UserController', ['except' => ['show']]);
     Route::get('/users/export', 'UserController@exportExcel')->name('users.exportExcel');
 
