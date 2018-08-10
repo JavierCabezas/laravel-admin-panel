@@ -8,6 +8,9 @@
                     <h2>Administrador de <small>Usuarios</small></h2>
                       <ul class="nav navbar-right panel_toolbox">
                           <li>
+                              <button type="button" class="btn btn-success" onclick="window.location='{{ route('admin::users.exportExcel') }}';">Exportar a excel</button>
+                          </li>
+                          <li>
                               <button type="button" class="btn btn-success" onclick="window.location='{{ route('admin::users.create') }}';">Nuevo</button>
                           </li>
                       </ul>

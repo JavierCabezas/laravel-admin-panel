@@ -31,6 +31,8 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'as' => 'admin::'], f
     Route::get('/', 'HomeController@index')->name('admin.home');
 
     Route::resource('/users', 'UserController', ['except' => ['show']]);
+    Route::get('/users/export', 'UserController@exportExcel')->name('users.exportExcel');
+
     Route::resource('/roles', 'RoleController', ['except' => ['show']]);
     Route::resource('/permissions', 'PermissionController', ['except' => ['show']]);
 

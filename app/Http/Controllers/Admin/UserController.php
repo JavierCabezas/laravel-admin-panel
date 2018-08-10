@@ -11,6 +11,7 @@ use DB;
 use Log;
 use Spatie\Permission\Models\Role;
 use Spatie\Permission\Models\Permission;
+use App\Exports\UsersExport;
 
 class UserController extends Controller
 {
@@ -115,5 +116,11 @@ class UserController extends Controller
               'message' => "Se ha eliminado el usuario  [".$name."]",
               'level' => 'success'
           ]);
+      }
+
+      public function exportExcel(){
+
+        return new UsersExport();
+
       }
 }
