@@ -43,22 +43,27 @@ npm run dev
 
 
 Jwt
-[tymondesigns/jwt-auth]: https://github.com/tymondesigns/jwt-auth
 
+[tymondesigns/jwt-auth](https://github.com/tymondesigns/jwt-auth)
 
 you need use this command: 
+
+```sh
 php artisan jwt:secret
+```
 
 Cors
 
-[http barryvdh/laravel-cors :](https://github.com/barryvdh/laravel-cors)
+[barryvdh/laravel-cors](https://github.com/barryvdh/laravel-cors)
 
 permission
-[http spatie/laravel-permission:](https://github.com/spatie/laravel-permission)
+
+[spatie/laravel-permission](https://github.com/spatie/laravel-permission)
 
 
 excel
-[http Maatwebsite/Laravel-Excel:](https://github.com/Maatwebsite/Laravel-Excel)
+
+[Maatwebsite/Laravel-Excel](https://github.com/Maatwebsite/Laravel-Excel)
 
 
 in your routes, you have the api and web file enabled
