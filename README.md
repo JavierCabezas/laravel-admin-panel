@@ -51,14 +51,14 @@ php artisan jwt:secret
 
 Cors
 
-[barryvdh/laravel-cors]: https://github.com/barryvdh/laravel-cors
+[http barryvdh/laravel-cors :](https://github.com/barryvdh/laravel-cors)
 
 permission
-[spatie/laravel-permission]: https://github.com/spatie/laravel-permission
+[http spatie/laravel-permission:](https://github.com/spatie/laravel-permission)
 
 
 excel
-[Maatwebsite/Laravel-Excel]: https://github.com/Maatwebsite/Laravel-Excel
+[http Maatwebsite/Laravel-Excel:](https://github.com/Maatwebsite/Laravel-Excel)
 
 
 in your routes, you have the api and web file enabled
