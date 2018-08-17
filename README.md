@@ -56,6 +56,11 @@ Cors
 
 [barryvdh/laravel-cors](https://github.com/barryvdh/laravel-cors)
 
+PDF 
+
+[barryvdh/laravel-dompdf](https://github.com/barryvdh/laravel-dompdf)
+
+
 permission
 
 [spatie/laravel-permission](https://github.com/spatie/laravel-permission)
