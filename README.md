@@ -39,7 +39,7 @@ php artisan key:generate
 npm run dev
 ```
 
-> **Note:** this admin panel have the next Packages.
+> **Note:** this admin panel has the following Packages.
 
 
 Jwt
